@@ -1,0 +1,19 @@
+{
+  "name": "seed-element",
+  "keywords": "seed, polymer, web-components",
+  "main": "seed-element.html",
+  "homepage": "https://github.com/PolymerLabs/seed-element/",
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.2.4"
+  },
+  "_release": "69555bdc1c",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "69555bdc1c4127bc0fbea95e0a12be8177d25eda"
+  },
+  "_source": "git://github.com/PolymerLabs/seed-element.git",
+  "_target": "master",
+  "_originalSource": "PolymerLabs/seed-element",
+  "_direct": true
+}
