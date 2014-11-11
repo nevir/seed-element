@@ -1,27 +1,28 @@
 {
   "name": "seed-element",
-  "version": "0.0.0",
-  "authors": [
-    "Anonymous <anonymous@example.com>"
+  "version": "1.2.3",
+  "main": [
+    "seed-element.html"
   ],
-  "description": "Element providing solution to no problem in particular.",
-  "keywords": [
-    "web-component",
-    "web-components",
-    "polymer",
-    "seed"
-  ],
-  "main": "seed-element.html",
-  "license": "MIT",
-  "homepage": "https://github.com/<USERNAME>/seed-element/",
+  "license": "http://polymer.github.io/LICENSE.txt",
   "ignore": [
     "/.*",
-    "/tests/"
+    "/demo/",
+    "/test/"
   ],
+  "authors": [
+    "The Polymer Authors (http://polymer.github.io/AUTHORS.txt)",
+    "Joe Bob <joebob@google.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Polymer/seed-element.git"
+  }
   "dependencies": {
-    "polymer": "Polymer/polymer#^0.4.2"
+    "polymer": "Polymer/polymer#^0.5.0"
   },
   "devDependencies": {
-    "web-component-tester": "Polymer/web-component-tester#^0.7.3"
-  }
+    "web-component-tester": "*"
+  },
+  "private": true
 }

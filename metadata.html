@@ -1,4 +1,3 @@
-<!doctype html>
 <!--
 @license
 Copyright (c) 2014 The Polymer Project Authors. All rights reserved.
@@ -8,22 +7,14 @@ The complete set of contributors may be found at http://polymer.github.io/CONTRI
 Code distributed by Google as part of the polymer project is also
 subject to an additional IP rights grant found at http://polymer.github.io/PATENTS
 -->
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+<x-meta id="seed-element" label="Seed" group="Core">
 
-  <script src="../../webcomponentsjs/webcomponents.js"></script>
-  <script src="../../web-component-tester/browser.js"></script>
-</head>
-<body>
+  <template>
+    <seed-element></seed-element>
+  </template>
 
-  <script>
-    // Load and run all tests (.html, .js) as one suite:
-    WCT.loadSuites([
-      'basic-test.html',
-    ]);
-  </script>
+  <template id="imports">
+    <link rel="import" href="seed-element.html">
+  </template>
 
-</body>
-</html>
+</x-meta>
