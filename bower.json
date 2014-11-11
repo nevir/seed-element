@@ -17,7 +17,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Polymer/seed-element.git"
-  }
+  },
   "dependencies": {
     "polymer": "Polymer/polymer#^0.5.0"
   },
